@@ -34,14 +34,24 @@
 
 5.  Buat sebuah program kuis.
     Tampilkan prompt() untuk meminta inputan dari user. Tampilan teks ‘Sebutkan kepanjangan dari nama IB (Impact Byte)?’
-    Lakukan pengecekan apakah jawaban dari user sudah benar
-    Jika benar, tampilkan alert ‘Selamat jawaban kamu benar’
-    Jika salah, lakukan pengulangan untuk menampilkan prompt() yg sama hingga jawaban dari user benar
     
-    Variable isinya prompt
-    While
-    Prompt
-    Misal bener, break
+    #EXERCISE
+    
+    1. Apa perbedaan dari procedural, conditional, dan looping? 
+    Procedural adalah prosuder dalam membuat suatu program. Conditional adalah statement percabangan yang menggambarkan suatu fungsi. 
+    Looping adalah statement perulangan sebuah instruksi hingga kondisi intruksi tersebut terpenuhi.
 
+    2. Kapan harus menggunakan looping? Jika kita sudah tahu seberapa banyak nilai yang pasti untuk dilakukan pengulangannya.
+
+    3. Sebutkan 3 looping yang dapat digunakan dan fungsi masing-masing?
+    
+    -While loop: normalnya digunakan untuk mengulang kode tertentu sebanyak waktu yang tidak diketahui, hingga suatu kondisi terpenuhi. 
+    Contoh: jika kita ingin menanyakan pada pengguna untuk angka antara 1 dan 10. Kita tidak mengetahui seberapa banyak pengguna akan 
+    memasukkan angka yang lebih besar dari 10, sehingga kita akan tetap menanyakan ‘Selagi angkanya tidak di antara 1 dan 10’
+    -Do while loop: merupakan control flow statement yang mengeksekusi kode paling tidak sekali dan kemudian secara berulang 
+    menjalankan kodenya atau tergantung pada kondisi Boolean nya untuk menjalankan kodenya diakhir
+    -For loop: merupakan statement control flow untuk iterasi khusus, yang memungkinkan kode untuk dijalankan berulang. 
+    Loop ini baik digunakan jika kita mengetahui seberapa banyak kita akan menjalankan bagian dari kode tersebut.
+    Perulangan do/while akan mengecek kondisi di belakang (sesudah mengulang), sedangkan while akan mencek kondisi di depan atau awal (sbelum mengulang)
 
 
