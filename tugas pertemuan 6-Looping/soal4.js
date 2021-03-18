@@ -1,12 +1,12 @@
-let tanya = true;
-let count = 0;
+let confirm = true;
+let a = 0;
 
-while (tanya) {
-    tanya = confirm('Apakah anda mau mengulang');
+while (confirm) {
+  let confirm = confirm('Apakah anda mau mengulang');
 
-    if (tanya === true) {
-        count++;
+    if (confirm === false) {
+         for(a; a>0; i++){
     } else {
-        alert('Perulangan sudah dilakukan sebanyak ' + count);
+        alert('Perulangan sudah dilakukan sebanyak ' + a);
     }
 }
