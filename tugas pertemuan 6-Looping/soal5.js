@@ -1,11 +1,9 @@
-let tanya = true;
+let kuis = true;
+while (kuis) {
+    kuis = prompt('Sebutkan kepanjangan dari nama IB ?');
 
-while (tanya) {
-    tanya = prompt('Sebutkan kepanjangan dari nama IB ?');
-
-    if (tanya === 'Impact Byte') {
+    if (kuis === 'Impact Byte') {
         alert('Selamat jawaban kamu benar');
-    } else {
-        tanya;
+    break;
     }
 }
